@@ -252,9 +252,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'v0.6.6
-
-'
+  m_Text: v0.6.5
 --- !u!222 &589038335
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -275,7 +273,7 @@ GameObject:
   - component: {fileID: 643272691}
   - component: {fileID: 643272690}
   m_Layer: 5
-  m_Name: Overworld
+  m_Name: Description4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,7 +352,7 @@ GameObject:
   - component: {fileID: 890690847}
   - component: {fileID: 890690846}
   m_Layer: 5
-  m_Name: RedditPlug
+  m_Name: Description1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,7 +396,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: abd91933b51b6fc47931c535c62c6929, type: 3}
+    m_Font: {fileID: 12800000, guid: f5cd2b4678fea12459fa95ba13ea4ccd, type: 3}
     m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
@@ -410,7 +408,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: For support and newest versions, go to <b>/r/Unitale</b>.
+  m_Text: "\u5982\u9700\u652F\u6301\u548C\u6700\u65B0\u7248\u672C\uFF0C\u8ACB\u9020\u8A2A
+    <b>/r/Unitale</b>."
 --- !u!222 &890690847
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -431,7 +430,7 @@ GameObject:
   - component: {fileID: 1020003808}
   - component: {fileID: 1020003807}
   m_Layer: 5
-  m_Name: ModSelect
+  m_Name: Description3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -475,7 +474,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: abd91933b51b6fc47931c535c62c6929, type: 3}
+    m_Font: {fileID: 12800000, guid: c7debfd31813b6342ae0aa5329749ef8, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -487,9 +486,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Press <b>Space</b> or <b>Click</b> for the
-
-    <color="#ff0000"><b>Mod Selection Screen</b></color>'
+  m_Text: "\u8ACB\u6309 <b>\u7A7A\u767D\u9375</b> \u6216 <b>\u7A7A\u767D\u8655</b>
+    \u9032\u5165\n<color=\"#ff0000\"><b>\u6A21\u7D44\u9078\u55AE</b></color>"
 --- !u!222 &1020003808
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -582,7 +580,7 @@ GameObject:
   - component: {fileID: 1450756124}
   - component: {fileID: 1450756123}
   m_Layer: 5
-  m_Name: LegalStuff
+  m_Name: Description2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,8 +636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Create Your Frisk is not owned by Toby Fox. Selling this engine or its mods
-    is <b>illegal</b>.
+  m_Text: "Create Your Frisk \u4E0D\u5C6C\u65BC Toby Fox\u3002 \u51FA\u552E\u6B64\u5F15\u64CE\u6216\u5176\u6A21\u7D44\u70BA<b>\u975E\u6CD5</b>\u884C\u70BA"
 --- !u!222 &1450756124
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -676,7 +673,7 @@ RectTransform:
   m_GameObject: {fileID: 1483471534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 317379796}
   - {fileID: 1349124950}
@@ -686,14 +683,15 @@ RectTransform:
   - {fileID: 643272689}
   - {fileID: 2007236153}
   - {fileID: 589038333}
+  - {fileID: 1800480366}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 320, y: 240}
-  m_SizeDelta: {x: 640, y: 480}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1483471536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,11 +721,11 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 640, y: 480}
-  m_ScreenMatchMode: 1
+  m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -742,10 +740,10 @@ Canvas:
   m_GameObject: {fileID: 1483471534}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 2
+  m_RenderMode: 1
   m_Camera: {fileID: 1852356662}
   m_PlaneDistance: 100
-  m_PixelPerfect: 1
+  m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -754,6 +752,83 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1800480365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1800480366}
+  - component: {fileID: 1800480368}
+  - component: {fileID: 1800480367}
+  m_Layer: 5
+  m_Name: Version
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1800480366
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800480365}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1483471535}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -156}
+  m_SizeDelta: {x: 150, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1800480367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800480365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: c7debfd31813b6342ae0aa5329749ef8, type: 3}
+    m_FontSize: 17
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u7E41\u9AD4\u4E2D\u6587\u7248\u555F\u52D5\u5668"
+--- !u!222 &1800480368
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800480365}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1833248411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -775,7 +850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 405216, guid: 9c0c29340fc4a6347aa18ffb6f5a7eea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -10000
       objectReference: {fileID: 0}
     - target: {fileID: 405216, guid: 9c0c29340fc4a6347aa18ffb6f5a7eea, type: 3}
       propertyPath: m_LocalRotation.x
@@ -797,10 +872,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2064840, guid: 9c0c29340fc4a6347aa18ffb6f5a7eea, type: 3}
-      propertyPath: far clip plane
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 8273166, guid: 9c0c29340fc4a6347aa18ffb6f5a7eea, type: 3}
       propertyPath: panLevelCustomCurve.m_RotationOrder
       value: 0
@@ -812,10 +883,6 @@ PrefabInstance:
     - target: {fileID: 8273166, guid: 9c0c29340fc4a6347aa18ffb6f5a7eea, type: 3}
       propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8273166, guid: 9c0c29340fc4a6347aa18ffb6f5a7eea, type: 3}
-      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
-      value: 0.454
       objectReference: {fileID: 0}
     - target: {fileID: 11437768, guid: 9c0c29340fc4a6347aa18ffb6f5a7eea, type: 3}
       propertyPath: EDITOR_MODFOLDER
@@ -853,11 +920,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Logo: {fileID: 317379795}
   LogoCrate: {fileID: 1349124949}
-  RedditPlug: {fileID: 890690844}
-  LegalStuff: {fileID: 1450756121}
-  ModSelection: {fileID: 1020003805}
-  Overworld: {fileID: 643272688}
-  LuaKnowledgeDisclaimer: {fileID: 2007236152}
+  Desc1: {fileID: 890690844}
+  Desc2: {fileID: 1450756121}
+  Desc3: {fileID: 1020003805}
+  Desc4: {fileID: 643272688}
+  Desc5: {fileID: 2007236152}
   Version: {fileID: 589038332}
 --- !u!1 &2007236152
 GameObject:
@@ -871,7 +938,7 @@ GameObject:
   - component: {fileID: 2007236155}
   - component: {fileID: 2007236154}
   m_Layer: 5
-  m_Name: TheTextNobodyReadsEver
+  m_Name: Description5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,7 +982,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: abd91933b51b6fc47931c535c62c6929, type: 3}
+    m_Font: {fileID: 12800000, guid: c7debfd31813b6342ae0aa5329749ef8, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
@@ -927,7 +994,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <b>Lua experience is <color='red'>REQUIRED</color> to make your own mods!!</b>
+  m_Text: "<b>\u5275\u4F5C\u81EA\u5DF1\u7684\u6A21\u7D44\u9700\u8981\u6709 <color='red'>\u5EFA\u69CB
+    Lua </color>\u7684\u7D93\u9A57</b>"
 --- !u!222 &2007236155
 CanvasRenderer:
   m_ObjectHideFlags: 0
